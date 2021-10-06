@@ -9,7 +9,7 @@ namespace HistoricoPacienteWF
 {
     class Connection
     {
-        private static string strCon = @"Server=tcp:aw-server0409.database.windows.net,1433;Initial Catalog=db_registro_medico;Persist Security Info=False;User ID=cloudadmin;Password=Ymm67480;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        private static string strCon = @"Server=tcp:aw-server0409.database.windows.net,1433;Initial Catalog=db_registro_medico;Persist Security Info=False;User ID=;Password=;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
         private static SqlConnection connection = null;
 
